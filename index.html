@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashionable's</title>
+  <link rel="icon" href="./img/icon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+    body{
+      background-image: url(./img/b1.jpeg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .f {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .main img:hover {
+      cursor: pointer;
+      transform: translate(-1px, -13px);
+    }
+
+    @media screen and (max-width:600px) {
+      .f {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding-left: 140px;
+        padding-right: 140px;
+      }
+
+      .main img {
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header bg-warning p-3 text-decoration-underline border border-2 border-warning m-5 text-center rounded">
+    <!-- <marquee scrollamount="14"> -->
+    <h1>- TRENDS & FASHION'S -</h1>
+    <!-- </marquee> -->
+    <div class="nav">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark w-100">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutus">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="true">
+                  Gender
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">MEN</a></li>
+                  <li><a class="dropdown-item" href="#">WOMEN</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+
+  
+
+  <div class="main mt-5 f">
+    <div class="card" style="width: 15rem; border-radius: 30px;">
+      <img src="./img/bg1.webp" class="card-img-top" alt="..." height="350px" style="border-radius: 30px;">
+      <div class="card-body">
+        <h5 class="card-title">Lehenga Materials</h5>
+        <p class="card-text">The lehenga, lehnga or langa is a form of ankle-length skirt from the Indian subcontinent
+        </p>
+        <a href="#" class="btn btn-primary">EXPLORE MORE</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 15rem; border-radius: 30px;">
+      <img src="./img/bg5.jpg" class="card-img-top" alt="..." height="325px" style="border-radius: 30px;">
+      <div class="card-body">
+        <h5 class="card-title">Formals</h5>
+        <p class="card-text">clothing that isn't classed as casual or and is clothing that tries to reflect a particular
+          event such as a wedding, dinner dance or knighthood.</p>
+        <a href="#" class="btn btn-primary">EXPLORE MORE</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 15rem; border-radius: 30px;">
+      <img src="./img/bg3.webp" class="card-img-top" alt="..." height="350px" style="border-radius: 30px;">
+      <div class="card-body">
+        <h5 class="card-title">Churidar</h5>
+        <p class="card-text">Churidars are a variant of the common shalwar pants. Shalwars are cut wide at the top and
+          narrow at the ankle.</p>
+        <a href="#" class="btn btn-primary">EXPLORE MORE</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 15rem; border-radius: 30px;">
+      <img src="./img/bg4.jpeg" class="card-img-top" alt="..." height="330px" style="border-radius: 30px;">
+      <div class="card-body">
+        <h5 class="card-title">Blazzers</h5>
+        <p class="card-text">A blazer is generally distinguished from a sport coat as a more formal garment and tailored
+          from solid colour fabrics.</p>
+        <a href="#" class="btn btn-primary">EXPLORE MORE</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="aside pt-5">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active text-white text-center">
+          <img src="./img/c2.webp" class="d-block w-100" alt="...">
+          <b>EPIC WEAR WOMENS</b>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt cupiditate amet saepe sit maiores odit
+            iusto expedita molestias, magni voluptas?</p>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/c7.webp" class="d-block w-100" alt="...">
+          <b>BLAZZERS FOR MEN</b>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas suscipit placeat perferendis ipsa tenetur
+            quos, fugiat cumque minima vitae nesciunt!</p>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/c3.jpg" class="d-block w-100" alt="...">
+          <b>SUITS FOR WOMENS</b>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At corporis commodi voluptates aperiam recusandae?
+            Illum, velit est. Ut, accusamus iure.</p>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/c5.jpg" class="d-block w-100" alt="...">
+          <b>FROCKS</b>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit perspiciatis ipsum molestiae fugiat!
+            Obcaecati facilis, neque quod consequuntur ullam tenetur!</p>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/c6.jpg" class="d-block w-100" alt="...">
+          <b>DESIGNER MATERIALS FOR WOMENS</b>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum architecto vel corrupti nobis quidem
+            quae inventore numquam officia accusamus ex.</p>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="footer bg-warning p-0 mt-3">
+    <h3 id="aboutus"
+      style="color: blue; font-size:39px; font-family: Georgia, 'Times New Roman', Times, serif; text-decoration-line: underline;">
+      ABOUT US</h3>
+    <b>Address : Tasker Town, Shivaji Nagar, Bengaluru, Karnataka 560001</b><br>
+    <b>Phone No : 044 2678 9752</b>
+    <b>
+      <details>
+        <summary style="padding-top:9px;">HOURS</summary>
+        <b>Mon 10:30 am–9:30 pm</b><br>
+        <b>Tue 10:30 am–9:30 pm</b><br>
+        <b>Wed 10:30 am–9:30 pm</b><br>
+        <b>Thrs 10:30 am–9:30 pm</b><br>
+        <b>Fri 10:30 am–9:30 pm</b><br>
+        <b>Sat 10:30 am–9:30 pm</b><br>
+        <b>Sun 09:30 am–10:30 pm</b>
+      </details>
+    </b>
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.843028227297!2d77.6061773740961!3d12.98188988733441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae168835be2ed7%3A0x8bfb29afb4a266b2!2sClove%20Clothing%20Store!5e0!3m2!1sen!2sin!4v1722589921899!5m2!1sen!2sin"
+      width="200" height="100" style="border:0; border-radius: 40px; padding-left: 8px;" allowfullscreen=""
+      loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <div class="alert alert-success" role="alert">
+      <h4 class="alert-heading">Hey You!</h4>
+      <p>.THANKS FOR VISTING .</p>
+      <hr>
+      <p class="mb-0">-TRENDS & FASHION'S-</p>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
